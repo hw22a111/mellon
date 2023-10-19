@@ -36,6 +36,8 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
     
     DrawCircle(0, 0, 100, kColorGreen);
+    DrawCircle(0, 50, 100, kColorRed);
+    
 
 }
 
