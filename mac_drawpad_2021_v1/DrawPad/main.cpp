@@ -22,6 +22,7 @@ void DrawMain()
     for (int x = 50; x < 250; x+=10) {
         Paint(x+5, 0, kColorDarkBlue, kColorBlue);
     }
+
     DrawCircle(0, 25, 75, kColorWhite);//hw22a020
     DrawText("Hello, world!!", -12*14/2, 44, kColorWhite);
     Sleep(0.5f);
@@ -39,6 +40,12 @@ void DrawMain()
     DrawCircle(0, 50, 100, kColorRed);
     DrawCircle(0, 75, 100, kColorBlue);
     DrawCircle(0, 50, 100, kColorYellow);
+
+
+
+    DrawCircle(0, 50, 100, kColorYellow);
+
+
 
 
 }
