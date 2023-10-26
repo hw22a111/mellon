@@ -37,7 +37,7 @@ void DrawMain()
     
     DrawCircle(0, 0, 100, kColorGreen);
     DrawCircle(0, 50, 100, kColorRed);
-    
+    DrawCircle(0, 50, 100, kColorYellow);
 
 }
 
